@@ -1,0 +1,42 @@
+{
+    "window.zoomLevel": 0,
+    "window.menuBarVisibility": "hidden",
+    "editor.fontFamily": "Source Code Pro",
+    "editor.fontSize": 11,
+    "atomKeymap.promptV3Features": true,
+    // "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "python.venvPath": "/home/mauls/Envs",
+    "python.linting.pylintArgs": [
+        "--disable=R0901,R0914,W0223,W0221,W0232,W0212,W0703,C0111,R0201,R1702,R0903,C1001,C0302,C0103,C0301,E1101,E0401"
+    ],
+    "editor.minimap.enabled": false,
+    "terminal.integrated.fontSize": 12,
+    "python.autoComplete.extraPaths": [
+        "${workspaceRoot}/libs",
+    ],
+    "files.exclude": {
+        "*.pyc": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    },
+    "editor.minimap.renderCharacters": false,
+    "python.formatting.autopep8Args": [
+        "--max-line-length=200",
+    ],
+    "editor.formatOnSave": true,
+    "workbench.statusBar.feedback.visible": false,
+    "git.confirmSync": false,
+    "python.autoComplete.addBrackets": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "8bit",
+    "zenMode.hideTabs": false,
+    "workbench.editor.labelFormat": "short",
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#000000",
+    }
+}
